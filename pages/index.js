@@ -14,12 +14,12 @@ export default function Home() {
     const handleLogin = (e) => {
         e.preventDefault();
         // Check for candidate credentials
-        if (email === 'candidate' && password === '1234') {
+        if (email === 'Employer' && password === '1234') {
             // Successful login
             router.push('/dashboar');
         } else {
             // Failed login
-            setMessage('Invalid credentials. Try candidate/1234');
+            setMessage('Invalid credentials. Try employer/1234');
         }
     };
 
