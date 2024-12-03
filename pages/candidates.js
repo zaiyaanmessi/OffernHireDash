@@ -70,7 +70,7 @@ export default function Candidates() {
     }
     return (
         <>
-            <Layout breadcrumbTitle="Recruiters" breadcrumbActive="Recruiters">
+            <Layout breadcrumbTitle="All Applicants" breadcrumbActive="Recruiters">
                 <div className="col-lg-12">
                     <div className="section-box">
                         <div className="container">

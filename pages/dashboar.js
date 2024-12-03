@@ -19,7 +19,7 @@ export default function Home() {
                                             <h3>2<span className="font-sm status up"></span>
                                             </h3>
                                         </div>
-                                        <p className="color-text-paragraph-2"><span></span>Applied Jobs</p>
+                                        <p className="color-text-paragraph-2"><span></span>Posted jobs</p>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ export default function Home() {
                                             <h3>4<span className="font-sm status up"></span>
                                             </h3>
                                         </div>
-                                        <p className="color-text-paragraph-2">Candidate Reviews</p>
+                                        <p className="color-text-paragraph-2">Job Applications</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@ export default function Home() {
                         <div className="container">
                             <div className="panel-white">
                                 <div className="panel-head">
-                                    <h5>Your Profile Views</h5>
+                                    <h5>Page views</h5>
                                     <Menu as="div">
                                         <Menu.Button as="a" className="menudrop" />
                                         <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>
@@ -135,7 +135,7 @@ export default function Home() {
                         <div className="container">
                             <div className="panel-white">
                                 <div className="panel-head">
-                                    <h5>Jobs Applied Recently </h5>
+                                    <h5>Recent Applicants</h5>
                                     <Menu as="div">
                                         <Menu.Button as="a" className="menudrop" />
                                         <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>

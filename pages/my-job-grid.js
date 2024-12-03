@@ -86,7 +86,7 @@ export default function JobGrid() {
 
     return (
         <>
-            <Layout breadcrumbTitle="My Jobs" breadcrumbActive="My Jobs">
+            <Layout breadcrumbTitle="Manage Jobs" breadcrumbActive="My Jobs">
                 <div className="col-lg-12">
                     <div className="section-box">
                         <div className="container">

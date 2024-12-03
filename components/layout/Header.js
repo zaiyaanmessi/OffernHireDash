@@ -49,19 +49,28 @@ export default function Header() {
                             </Menu>
 
                             <Menu as="div" className="dropdown">
-                                <Menu.Button as="a" className="font-xs icon-down" style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <span style={{ marginLeft: '5px', fontWeight: 'bold', fontSize: '16px' }}>Find Job</span>
-                                </Menu.Button>
-                                <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>
-                                    <li><Link className="dropdown-item" href="/profile">Profiles</Link></li>
-                                    <li><Link className="dropdown-item" href="/my-resume">CV Manager</Link></li>
-                                    <li><Link className="dropdown-item" href="/login">Logout</Link></li>
-                                </Menu.Items>
-                            </Menu>
+    <Menu.Button 
+        as="a" 
+        className="font-xs icon-down" 
+        style={{ display: 'inline-flex', alignItems: 'center' }}
+    >
+        <span style={{ marginLeft: '5px', fontWeight: 'bold', fontSize: '16px' }}>Job</span>
+    </Menu.Button>
+    <Menu.Items 
+        as="ul" 
+        className="dropdown-menu dropdown-menu-light dropdown-menu-end show" 
+        style={{ right: "0", left: "auto" }}
+    >
+        <li><Link className="dropdown-item" href="/profile">Profiles</Link></li>
+        <li><Link className="dropdown-item" href="/my-resume">CV Manager</Link></li>
+        <li><Link className="dropdown-item" href="/login">Logout</Link></li>
+    </Menu.Items>
+</Menu>
+
 
                             <Menu as="div" className="dropdown">
                                 <Menu.Button as="a" className="font-xs icon-down" style={{ display: 'flex', flexDirection: 'row', fontWeight: 'bold' }}>
-                                    <span style={{ marginLeft: '5px', fontWeight: 'bold', fontSize: '16px'  }}>Candidates</span>
+                                    <span style={{ marginLeft: '5px', fontWeight: 'bold', fontSize: '16px'  }}>Employer</span>
                                 </Menu.Button>
                                 <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>
                                     <li><Link className="dropdown-item" href="/profile">Profiles</Link></li>
@@ -100,15 +109,15 @@ export default function Header() {
                                     <div className="info-member">
                                         <strong className="color-brand-1">Steven Jobs</strong>
                                         <Menu as="div" className="dropdown">
-                                            <Menu.Button as="a" className="font-xl icon-down">Candidate</Menu.Button>
+                                            <Menu.Button as="a" className="font-xl icon-down">Employer</Menu.Button>
                                             <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>
                                                 <li><Link className="dropdown-item" href="/dashboar">Dashboard</Link></li>
                                                 <li><Link className="dropdown-item" href="/profile">Profile</Link></li>
-                                                <li><Link className="dropdown-item" href="/my-resume">My Resume</Link></li>
-                                                <li><Link className="dropdown-item" href="/my-job-grid">My Applied</Link></li>
+                                                <li><Link className="dropdown-item" href="/my-job-grid">My Jobs</Link></li>
+                                                <li><Link className="dropdown-item" href="/candidates">Job Applicants</Link></li>
                                                 <li><Link className="dropdown-item" href="/recruiters">Jobs Shortlist</Link></li>
                                                 <li><Link className="dropdown-item" href="/my-tasks-list">Job alerts</Link></li>
-                                                <li><Link className="dropdown-item" href="/candidates">Recruiters</Link></li>
+                                              
                                                 <li><Link className="dropdown-item" href="/settings">Setting</Link></li>
                                                 <li><Link className="dropdown-item" href="/authentication">Authentication</Link></li>
                                                 <li><Link className="dropdown-item" href="/login">Logout</Link></li>
