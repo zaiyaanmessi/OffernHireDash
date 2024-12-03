@@ -100,7 +100,7 @@ export default function Header() {
                                     <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>
                                         <li><Link className="dropdown-item active" href="#">10 notifications</Link></li>
                                         <li><Link className="dropdown-item" href="#">12 messages</Link></li>
-                                        <li><Link className="dropdown-item" href="#">20 replies</Link></li>
+                                        <li><Link className="dropdown-item" href="#">21 replies</Link></li>
                                     </Menu.Items>
                                 </Menu>
 
