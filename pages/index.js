@@ -14,7 +14,7 @@ export default function Home() {
     const handleLogin = (e) => {
         e.preventDefault();
         // Check for candidate credentials
-        if (email === 'Employer' && password === '1234') {
+        if (email === 'employer' && password === '1234') {
             // Successful login
             router.push('/dashboar');
         } else {
